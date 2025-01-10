@@ -1,0 +1,134 @@
+.Home{
+    background: linear-gradient(to right, #191952  0%, #341952 100%);
+}
+.line{
+    height: 0.1px;
+    background-color: #ffffffbb
+}
+.secondline{
+    height: 4px;
+    background-color: #A4A4A4
+}
+.Dataword{
+    color: #F57500;
+}
+
+.line3{
+    font-size: 30px;
+    padding-left: 190px;
+}
+
+
+.line2{
+    font-size: 60px;
+    padding-left: 115px;
+}
+
+
+.line1{
+    font-size: 70px;
+}
+.lines{
+padding-top: 7%;
+}
+
+
+  .btnn{
+    background-color: #F57500 !important;
+  }
+
+
+
+
+
+
+
+
+.fg{
+    background: linear-gradient(to right, #191952  0%, #341952 100%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 187;
+    left: 2%;
+    bottom: 2%;
+}
+
+.position-fixed {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+ 
+    transform: translateX(-50%);
+    animation: moveUpDown 1s infinite alternate; /* Adjust duration and timing as needed */
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px); /* Adjust the distance to go up and down */
+    }
+  }
+
+
+
+
+
+
+
+ 
+
+  
+  /* CSS Animation for text */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .text-animation {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  
+  .delay-1 {
+    animation-delay: 0.3s;
+  }
+  
+  .delay-2 {
+    animation-delay: 0.6s;
+  }
+  
+  .delay-3 {
+    animation-delay: 0.9s;
+  }
+
+
+  .delay-4 {
+    animation-delay: 1.2s;
+  }
+
+  .delay-5 {
+    animation-delay: 1.5s;
+  }
+
+  .delay-6 {
+    animation-delay: 1.8s;
+  }
+
+  .delay-7 {
+    animation-delay: 2.1s;
+  }
+
+  .delay-8 {
+    animation-delay: 2.4s;
+  }

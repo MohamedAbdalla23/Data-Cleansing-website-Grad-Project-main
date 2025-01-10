@@ -1,0 +1,69 @@
+{% block css %}
+
+{% endblock %}
+{% block nav %}
+<div class="nav navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="navbar-brand log">
+      <img class='iconn' src=".\static\photos\head.png" alt="Logo" />
+    </div>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active fs-5 text-white me-4" aria-current="page" href="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5 text-white me-4" href="/About">About</a>
+        </li>
+        <li class="nav-item" id="clean-data-nav">
+          <a class="nav-link fs-5 text-white me-4" href="/dashboard">Clean Data!</a>
+        </li>
+        <li class="nav-item" id="login-nav">
+          <a class="nav-link fs-5 text-white me-4" href="/">Login</a>
+        </li>
+        <li class="nav-item" id="logout-nav" style="display: none;">
+          <a class="nav-link fs-5 text-white me-4" href="#" onclick="logout()">Logout</a>
+        </li>
+        <li class="nav-item" id="username-nav" style="display: none;">
+          <a class="nav-link fs-5 text-white me-4" href="#" id="username"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  const user = JSON.parse(localStorage.getItem('user'));
+  const cleanDataNav = document.getElementById('clean-data-nav');
+  const loginNav = document.getElementById('login-nav');
+  const logoutNav = document.getElementById('logout-nav');
+  const usernameNav = document.getElementById('username-nav');
+  const usernameDisplay = document.getElementById('username');
+
+  if (user) {
+    cleanDataNav.style.display = 'block';
+    loginNav.style.display = 'none';
+    logoutNav.style.display = 'block';
+    usernameNav.style.display = 'block';
+    usernameDisplay.textContent = user.username;
+  } else {
+    cleanDataNav.style.display = 'none';
+    loginNav.style.display = 'block';
+    logoutNav.style.display = 'none';
+    usernameNav.style.display = 'none';
+  }
+});
+
+function logout() {
+  localStorage.removeItem('user');
+  window.location.href = "/";
+}
+
+</script>
+{% endblock %}

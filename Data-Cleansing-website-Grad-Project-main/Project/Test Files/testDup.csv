@@ -1,0 +1,12 @@
+ID,Name,age,city,status,salary
+1,M.Alammar,100,,Male,500
+2,M.Abdulmotaleb,,cairo,Male,600
+3,Abdulrahman,21,tanta,,700
+4,M.Osama,23,haram,Male,-500
+5,test1,23,syria,,10000
+6,test2,22,cairo,Male,300
+7,test3,21,tanta,Male,400
+8,test4,23,,Male,550
+8,test4,23,,Male,550
+4,M.Osama,23,haram,Male,-500
+2,M.Abdulmotaleb,,cairo,Male,600

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-color: #42464f;
+}
+.logo{
+
+    position: relative;
+}
+
+.image{
+    position:absolute;
+    left:45px;
+    width:85%;
+
+}
+.icons{
+    margin-top:70%;
+    margin-left:30%;
+}
+.textColor{
+    color: #d9d9d9;
+    height: 10%;
+    border-left: solid  #d9d9d9 1px;
+    font-weight: lighter;
+
+}
+.borderText1  {
+    border-bottom: solid #d9d9d9 1px;
+    width: 65%;
+    cursor: pointer;
+    color: #d9d9d9;
+
+}
+.borderText2{
+    border-bottom: solid #d9d9d9 1px;
+    width: 38%;
+    font-weight: lighter;
+
+}
+.borderText3{
+    border-bottom: solid #d9d9d9 1px;
+    width: 50%;
+    font-weight: lighter;
+
+}
+
+.borderText4{
+    border-bottom: solid #d9d9d9 1px;
+    width: 48%;
+}
+.borderr{  
+  border-left: solid  #d9d9d9 1px;    
+}
+.prag{
+    font-size: large;
+    font-weight:300;
+    margin-top: 10%;
+    margin-left:5%;
+}
+.input1{
+    padding-right:50px;
+    padding-left:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left:5%;
+}
+.btnnn{
+    padding:6px 10px;
+    border: none;
+    margin-left:3px;
+    color:#d9d9d9;
+    background-color: #f57500;
+    font-weight: bold;
+}
+.check{
+    display: flex;
+    justify-content:space-between;
+}
+#checkbox{
+    margin-left:5%;
+    margin-top: 5%;
+    
+}
+.pra{
+    margin-top:7%;
+    margin-right:4%;
+}
+.borderText11  {
+    border-bottom: solid #d9d9d9 1px;
+    width: 40%;
+    cursor: pointer;
+    color: #d9d9d9;
+    margin-left:25% ;
+
+}
+.borderText22 {
+    border-bottom: solid #d9d9d9 1px;
+    width: 22%;
+    cursor: pointer;
+    color: #d9d9d9;
+    margin-left:25% ;
+
+}.borderText33{
+    border-bottom: solid #d9d9d9 1px;
+    width: 35%;
+    cursor: pointer;
+    color: #d9d9d9;
+    margin-left:25% ;
+}
+.icon{
+color:white;
+width: 50%;
+height: 50%;
+}
+.services{
+    margin-left:28% ;
+    margin-top: 7%;
+}
+.two{
+    color: #d9d9d9;
+    background-color: #434343;
+}
+.two p{
+    margin-top:0.5%;
+}
+.arrow{
+    margin-left: 80%;
+
+}
+
+
+.nav {
+    background: linear-gradient(to right, #191952  0%, #341952 100%);
+  }
+li{
+    color: white;
+}
+
+
+.log{
+height: 80px;
+position: relative;
+bottom:     45px;
+
+
+}
+
+
+.iconn{
+   width: 180px;
+   height: auto 
+  
+   }
+
+
+   .radial-label {
+    display: flex !important;
+  }
+  
+  .radial-series {
+    display: flex !important;
+  }
+  
+   
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #191952  0%, #341952 100%);
+    border-radius: 5px; /* Roundness of the scrollbar thumb */
+  }
+  

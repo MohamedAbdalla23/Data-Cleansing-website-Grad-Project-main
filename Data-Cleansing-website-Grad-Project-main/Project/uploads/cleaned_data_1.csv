@@ -1,0 +1,9 @@
+ID,Name,age,city,status,salary,Actions
+1,M.Alammar,100.0,None,Male,500,Delete
+2,M.Abdulmotaleb,None,cairo,Male,600,Delete
+3,Abdulrahman,21.0,tanta,None,700,Delete
+4,M.Osama,23.0,haram,Male,-500,Delete
+5,test1,23.0,syria,None,10000,Delete
+6,test2,22.0,cairo,Male,300,Delete
+7,test3,21.0,tanta,Male,400,Delete
+8,test4,23.0,None,Male,550,Delete

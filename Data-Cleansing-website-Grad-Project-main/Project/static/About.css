@@ -1,0 +1,32 @@
+.Homee{
+    background: linear-gradient(to right, #191952  0%, #341952 100%);
+}
+
+.linee{
+    height: 0.1px;
+    background-color: #ffffffbb
+}
+
+.liness{
+    padding-top: 80px;
+    }
+
+    .Datawords{
+        color: #F57500;
+    }
+
+    .colors{
+        color: white;
+      }
+
+     .sizes{
+        font-size: 20px;
+          }
+          .line1s{
+            font-size: 70px;
+        }
+
+        .secondlines{
+            height: 4px;
+            background-color: #A4A4A4
+        }

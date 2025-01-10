@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Cleaning Dashboard</title>
+    <link rel="stylesheet" href=".\static\Home.css">
+    <link rel="stylesheet" href=".\static\all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href=".\static\dashboard.css">
+<style>
+    
+</style>
+    {% extends "layout.html" %}
+    {% include 'nav.html' %}
+    {% block body %}
+</head>
+<body>
+    <div class="Home w-100 text-success container-fluid" style="height: 600px;">
+        <div class='d-flex justify-content-center align-items-center'>
+            <div class="line w-75"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 ps-5 lines">
+                <h1 class='text-white line1 text-animation delay-2'>From Here You Can Clean Your <span class='Dataword'>Data</span> Now!</h1>
+                <h1 class='text-white py-1 line2 text-animation delay-3'>With <span class='Dataword'>this Techniques</span></h1>
+                <h2 class='text-white line3 py-1 text-animation delay-4'>Try It Now !</h2>
+            </div>
+            <div class="col-md-4">
+                <img class='w-100 text-animation delay-1' src=".\static\photos\head.png" alt="" />
+            </div>
+        </div>
+    </div>
+       <!-- New Section for Data Cleaning Techniques -->
+       <section class="container techniques-section mt-5" style="padding: 15px;">
+        <h2 class="text-center section-title">Data Cleaning <span class='Dataword'>Techniques</span></h2>
+        <div class="row mt-4">
+            <div class="col-md-6 mb-4">
+                <div class="technique-card p-4" style="height: 227.5px; text-align: center;" >
+                    <h3 class="technique-title">Outliers</h3>
+                    <p>Outliers are data points that deviate significantly from other observations. Detecting and handling outliers is crucial as they can skew and mislead the training process of machine learning algorithms. Techniques to handle outliers include statistical methods, visualization methods, and algorithmic methods.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="technique-card p-4" style="text-align: center;">
+                    <h3 class="technique-title">Missing Values</h3>
+                    <p>Missing values can occur due to various reasons such as human error or data corruption. It's important to address missing values because they can lead to inaccurate analysis and models. Common techniques to handle missing values include deletion methods, imputation methods, and using algorithms that support missing values inherently.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="technique-card p-4" style="height: 227.5px; text-align: center;">
+                    <h3 class="technique-title">Duplicates</h3>
+                    <p>Duplicate data entries can inflate the dataset size and lead to biased analysis. Identifying and removing duplicates is essential to maintain data integrity. Techniques to manage duplicates include using unique identifiers, checking for identical rows, and using fuzzy matching for near-duplicates.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="technique-card p-4" style="text-align: center;">
+                    <h3 class="technique-title">Invalid Format</h3>
+                    <p>Invalid format issues arise when data entries do not conform to the expected format, such as incorrect date formats or string values in numerical fields. Handling invalid formats involves validating and correcting data entries to ensure consistency and accuracy. Techniques include regular expressions, data type conversions, and schema validations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-chart-line fa-3x mb-3"></i>
+                        <h5 class="card-title">Outliers</h5>
+                        <p class="card-text">Detect and handle outliers in your data.</p>
+                        <a href="/outliers" class="btn btn-primary">Go to Outliers Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-user-slash fa-3x mb-3"></i>
+                        <h5 class="card-title">Missing Values</h5>
+                        <p class="card-text">Deal with missing values in your dataset.</p>
+                        <a href="/missing_values" class="btn btn-primary">Go to Missing Values Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-clone fa-3x mb-3"></i>
+                        <h5 class="card-title">Duplicates</h5>
+                        <p class="card-text">Identify and remove duplicate entries.</p>
+                        <a href="/duplicates" class="btn btn-primary">Go to Duplicates Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card custom-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-exclamation-triangle fa-3x mb-3"></i>
+                        <h5 class="card-title">Invalid Format</h5>
+                        <p class="card-text">Handle data entries with invalid formats.</p>
+                        <a href="/invalid_format" class="btn btn-primary">Go to Invalid Format Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+{% include 'footer.html' %}
+{% endblock %}

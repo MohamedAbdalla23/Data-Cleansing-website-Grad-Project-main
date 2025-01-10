@@ -1,0 +1,9 @@
+,ID,Name,age,city,status,salary
+0,,,,,,
+1,1,M.Alammar,25.25,NaN,Male,500.0
+2,2,M.Abdulmotaleb,NaN,cairo,Male,600.0
+3,3,Abdulrahman,21.00,tanta,Male,700.0
+4,4,M.Osama,23.00,haram,Male,0.0
+5,6,test2,22.00,cairo,Male,300.0
+6,7,test3,21.00,tanta,Male,400.0
+7,8,test4sa,23.00,NaN,Male,550.0

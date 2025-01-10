@@ -1,0 +1,9 @@
+name,email,phone
+John Doe,john.doe@example.com,+1234567890
+Jane Smith,invalid-email,123-abc-7890
+Mary Jane,mary.jane@website.,+1 (555) 123-4567
+Chris O'Neill,chris@oneill.com,55512345678
+Invalid Name123,valid.email@example.com,+9876543210
+Emily Davis,emily.davis@example.com,+123-456-7890
+Michael Brown,michael@brown,555-1234
+Sarah Connor,sarah.connor@example.com,+1234567

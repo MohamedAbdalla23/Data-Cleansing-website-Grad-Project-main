@@ -1,0 +1,22 @@
+.nav {
+    background: linear-gradient(to right, #191952  0%, #341952 100%);
+  }
+li{
+    color: white;
+}
+
+
+.log{
+height: 80px;
+position: relative;
+bottom:     45px;
+
+
+}
+
+
+.iconn{
+   width: 180px;
+   height: auto 
+  
+   }
